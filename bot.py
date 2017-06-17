@@ -12,7 +12,7 @@ import redis
 import requests as req
 reload(sys)
 sys.setdefaultencoding("utf-8")
-TOKEN = '382407045:AAE42AmH9zX9-3dsbcrCWD4NnY4BswP8c2Y'
+TOKEN = '382407045:AAH77iMloUx95eYWi6ApLA7jnpSppOl4CjQ'
 channel = '@tgMember'
 sudo = '158955285'
 bot = telebot.TeleBot(TOKEN)
