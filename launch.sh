@@ -1,8 +1,3 @@
-#!/bin/bash
-
-cd $HOME/logo
-
-install() {
 sudo apt-get install python-setuptools
 
 sudo apt-get install python-pip
@@ -18,13 +13,9 @@ sudo apt-get update
 sudo apt-get install python2.7
 
 sudo pip install pytelegrambotapi py==1.4.29 pytest==2.7.2 requests==2.7.0 six==1.9.0 wheel==0.24.0
-}
 
-if [ "$1" = "install" ]; then
-  install 
-fi 
+sudo apt-get install python-setuptools python-dev build-essential 
 
+sudo easy_install pip
 
-while true; do
-  python bot.py
-done
+sudo pip install redis
